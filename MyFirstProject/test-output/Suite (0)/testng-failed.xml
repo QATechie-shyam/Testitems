@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite (0)]">
+  <test thread-count="5" name="Youtube test(failed)">
+    <groups>
+      <run>
+        <exclude name="TestNoG"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNGpractise.TestNgdemo">
+        <methods>
+          <include name="Youtubelogin"/>
+          <include name="Youtubeerror"/>
+        </methods>
+      </class> <!-- TestNGpractise.TestNgdemo -->
+    </classes>
+  </test> <!-- Youtube test(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->
