@@ -6,6 +6,7 @@ public class Secondtry {
 	@Test 
 	public void FBLogin(){
 	System.out.println("I am able to login successfully");	
+	
 	}
 	@Test (dependsOnMethods="FBLogin")
 	public void FBLoginerror(){
